@@ -1,0 +1,77 @@
+body {
+  background: hsl(259, 100%, 65%, 0.05);
+}
+
+.counter-box {
+  background: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 60%;
+  margin: 10% auto;
+  padding: 30px 50px;
+  box-shadow: 10px 10px 48px 13px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 30px 100px;
+}
+
+.counter-login {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid hsl(0, 0%, 94%);
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 1%, 44%);
+}
+
+.counter-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10px 30px 0;
+}
+
+.counter-login input {
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 32px;
+  width: 50%;
+}
+.counter-login button{
+  border: none;
+  background: hsl(259, 100%, 65%);
+  border-radius: 50px;
+  padding: 20px;
+  position: absolute;
+  right: 20%;
+  top: 30%;
+}
+
+.counter-login button:hover{
+  background: hsl(0, 0%, 8%);
+}
+
+.counter-login img {
+
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 52px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.result span{
+  color: hsl(259, 100%, 65%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
